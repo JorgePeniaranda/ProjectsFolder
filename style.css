@@ -11,4 +11,13 @@ a {
   background: url("polar.gif") oklch(0% 0 0);
   background-repeat: no-repeat;
   background-position: center;
+  animation: onLoad 500ms ease forwards;
+}
+@keyframes onLoad {
+  from {
+    background-size: 10%;
+  }
+  to {
+    background-size: 30%;
+  }
 }
