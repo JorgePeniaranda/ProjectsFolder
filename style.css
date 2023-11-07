@@ -8,6 +8,7 @@ body {
 a {
   width: 100vw;
   height: 100vh;
+  font-size: 20px;
   background: url("polar.gif") oklch(0% 0 0);
   background-repeat: no-repeat;
   background-position: center;
