@@ -9,9 +9,9 @@ a {
   width: 100vw;
   height: 100vh;
   font-size: 20px;
-  background: url("polar.gif") oklch(0% 0 0);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: oklch(0% 0 0);
+  display: grid;
+  place-items: center;
   animation: onLoad 500ms ease forwards;
 }
 @keyframes onLoad {
