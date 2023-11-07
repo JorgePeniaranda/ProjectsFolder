@@ -9,8 +9,7 @@ a {
   background: oklch(0% 0 0);
 }
 video {
-  width: 100%;
-  max-width: 70rem;
+  width: 80%;
   margin: auto;
   animation: onLoad 500ms ease forwards;
 }
@@ -20,5 +19,10 @@ video {
   }
   to {
     transform: scale(1);
+  }
+}
+@media (width > 720px) {
+  video {
+    width: 30%;
   }
 }
